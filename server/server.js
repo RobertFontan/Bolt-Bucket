@@ -2,15 +2,18 @@ import express from 'express'
 import path from 'path'
 import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
-
+import cors from 'cors'
 // import the router from your routes file
 
+import carsRouter from './routes/cars.js'
 
 dotenv.config()
 
 const PORT = process.env.PORT || 3000
 
 const app = express()
+app.use(cors())
+app.use(express.json())
 
 app.use(express.json())
 
@@ -23,7 +26,11 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
+app.use('/cars', carsRouter)
 
+app.get('/', (req, res) => {
+    res.status(200).send('<h1 style="text-align: center; margin-top;">Welcome to Cars API!</h1>')
+})
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>
