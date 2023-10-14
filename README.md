@@ -35,8 +35,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/BLaV1GZh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-!(http://i.imgur.com/BLaV1GZh.gif)
+<img src='http://i.imgur.com/BLaV1GZ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+!(http://i.imgur.com/BLaV1GZ.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with gifcap
