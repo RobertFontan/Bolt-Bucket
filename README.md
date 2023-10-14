@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='http://i.imgur.com/BLaV1GZh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![Alt Text](http://i.imgur.com/BLaV1GZh.gif)
+!(http://i.imgur.com/BLaV1GZh.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with gifcap
