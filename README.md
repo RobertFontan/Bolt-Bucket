@@ -35,10 +35,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<!-- <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
+<img src='http://i.imgur.com/BLaV1GZh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ![Alt Text](http://i.imgur.com/BLaV1GZh.gif)
+
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with gifcap  GIF tool here
+GIF created with gifcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
