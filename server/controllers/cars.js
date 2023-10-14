@@ -23,6 +23,7 @@ const getCarById = async (req, res) => {
 
 const createCar = async (req, res) => {
     try {
+        console.log('creating car')
         const {name, exterior, roof, wheels } = req.body
         const results = await pool.query(`
         INSERT INTO cars (name, exterior, roof, wheels)
@@ -52,7 +53,7 @@ const updateCar = async (req, res) => {
 const deleteCar = async (req, res) => {
     try {
         const id = parseInt(req.params.id)
-        const results = await pool.query(`DELETE FROM cars WHERE id = $1`, [id])
+        const results = await pool.query(`DELETE FROM cars WHERE id = ${id}`)
         res.status(200).json(results.rows[0])
     } catch (err) {
         res.status(409).json({err:err.message})

@@ -10,3 +10,4 @@ router.post('/', CarsController.createCar);
 router.delete('/:id', CarsController.deleteCar);
 router.patch('/:id', CarsController.updateCar);
 
+export default router;
